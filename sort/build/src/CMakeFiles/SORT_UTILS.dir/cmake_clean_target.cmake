@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libSORT_UTILS.a"
+)

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_bubble_sort.dir/main.cpp.o -o ../../../app/01_test_bubble_sort/bin/test_bubble_sort  ../../src/libSORT_UTILS.a 

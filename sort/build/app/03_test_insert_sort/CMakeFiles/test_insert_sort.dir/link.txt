@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_insert_sort.dir/main.cpp.o -o ../../../app/03_test_insert_sort/bin/test_insert_sort  ../../src/libSORT_UTILS.a 

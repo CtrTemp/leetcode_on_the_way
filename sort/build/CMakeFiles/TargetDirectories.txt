@@ -1,0 +1,14 @@
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/CMakeFiles/edit_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/CMakeFiles/rebuild_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/src/CMakeFiles/SORT_UTILS.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/src/CMakeFiles/edit_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/src/CMakeFiles/rebuild_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/01_test_bubble_sort/CMakeFiles/test_bubble_sort.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/01_test_bubble_sort/CMakeFiles/edit_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/01_test_bubble_sort/CMakeFiles/rebuild_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/02_test_quick_sort/CMakeFiles/test_quick_sort.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/02_test_quick_sort/CMakeFiles/edit_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/02_test_quick_sort/CMakeFiles/rebuild_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/03_test_insert_sort/CMakeFiles/test_insert_sort.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/03_test_insert_sort/CMakeFiles/edit_cache.dir
+/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/02__230514/leetcode_on_the_way/sort/build/app/03_test_insert_sort/CMakeFiles/rebuild_cache.dir
