@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/test_quick_sort.dir/main.cpp.o -o ../../../app/02_test_quick_sort/bin/test_quick_sort  ../../src/libSORT_UTILS.a 

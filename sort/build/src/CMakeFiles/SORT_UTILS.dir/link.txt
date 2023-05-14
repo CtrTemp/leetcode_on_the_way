@@ -1,2 +1,0 @@
-/usr/bin/ar qc libSORT_UTILS.a CMakeFiles/SORT_UTILS.dir/bubble_sort.cpp.o CMakeFiles/SORT_UTILS.dir/insert_sort.cpp.o CMakeFiles/SORT_UTILS.dir/quick_sort.cpp.o
-/usr/bin/ranlib libSORT_UTILS.a
