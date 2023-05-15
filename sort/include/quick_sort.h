@@ -126,7 +126,7 @@ public:
         nums[rand_idx] = nums[idx_r];
         nums[idx_r] = exchange_temp;
 
-        cout << "partition val = " << nums[idx_r] << endl;
+        // cout << "partition val = " << nums[idx_r] << endl;
 
         int eq_range[2];
 

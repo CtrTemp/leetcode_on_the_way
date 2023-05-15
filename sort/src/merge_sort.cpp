@@ -1,6 +1,6 @@
-#include "insert_sort.h"
+#include "merge_sort.h"
 
-void test_insert_sort(void)
+void test_merge_sort(void)
 {
     vector<int> arr;
 
@@ -10,8 +10,8 @@ void test_insert_sort(void)
     // 数据生成
     random_list_generator(arr, TOTAL_DEBUG_ARR_LEN);
     // 数据排序
-    insert_sort insert_sort_obj;
-    insert_sort_obj.sort(arr);
+    merge_sort merge_sort_obj;
+    merge_sort_obj.sort_recursive(arr, 0, arr.size() - 1);
 
     cout << "sorted arr = ";
     for (int i = 0; i < arr.size(); i++)
@@ -38,12 +38,11 @@ void test_insert_sort(void)
         // 数据生成
         random_list_generator(arr, TOTAL_TEST_ARR_LEN);
         // 数据排序(个人书写的测试版本)
-        insert_sort insert_sort_obj;
-        insert_sort_obj.sort(arr);
+        merge_sort merge_sort_obj;
+        merge_sort_obj.sort_recursive(arr, 0, arr.size() - 1);
 
         // 数据排序(借助stl中qsort实现的稳定版本)
         int *stl_sorted_arr = stl_sort(arr);
-
 
         // 对照个人排序的结果与stl标准结果是否一致
         for (int i = 0; i < TOTAL_TEST_ARR_LEN; i++)
@@ -66,7 +65,7 @@ void test_insert_sort(void)
     }
     if (mark)
     {
-        cout << "your own insert sort result has passed the test!" << endl;
+        cout << "your own merge sort result has passed the test!" << endl;
     }
     else
     {

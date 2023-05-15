@@ -14,7 +14,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 project(sortPack LANGUAGES CXX)
 
 # # 允许GDB调试
-# set(CMAKE_BUILD_TYPE DEBUG)
+set(CMAKE_BUILD_TYPE DEBUG)
 
 # 添加头文件引用路径
 # 注意，使用 INCLUDE_DIRECTORIES 包含的头文件路径可以被各级子目录中的目标所用，是可以传递下去的
@@ -32,6 +32,11 @@ add_subdirectory(./src)
 add_subdirectory(./app/01_test_bubble_sort)
 add_subdirectory(./app/02_test_quick_sort)
 add_subdirectory(./app/03_test_insert_sort)
+add_subdirectory(./app/04_test_selection_sort)
+add_subdirectory(./app/05_test_merge_sort)
+add_subdirectory(./app/06_test_heap_sort)
+add_subdirectory(./app/07_test_radix_sort)
+add_subdirectory(./app/08_test_count_sort)
 
  
 

@@ -1,6 +1,6 @@
-#include "insert_sort.h"
+#include "radix_sort.h"
 
-void test_insert_sort(void)
+void test_radix_sort(void)
 {
     vector<int> arr;
 
@@ -10,8 +10,8 @@ void test_insert_sort(void)
     // 数据生成
     random_list_generator(arr, TOTAL_DEBUG_ARR_LEN);
     // 数据排序
-    insert_sort insert_sort_obj;
-    insert_sort_obj.sort(arr);
+    radix_sort radix_sort_obj;
+    radix_sort_obj.sort(arr);
 
     cout << "sorted arr = ";
     for (int i = 0; i < arr.size(); i++)
@@ -38,8 +38,8 @@ void test_insert_sort(void)
         // 数据生成
         random_list_generator(arr, TOTAL_TEST_ARR_LEN);
         // 数据排序(个人书写的测试版本)
-        insert_sort insert_sort_obj;
-        insert_sort_obj.sort(arr);
+        radix_sort radix_sort_obj;
+        radix_sort_obj.sort(arr);
 
         // 数据排序(借助stl中qsort实现的稳定版本)
         int *stl_sorted_arr = stl_sort(arr);
@@ -66,7 +66,7 @@ void test_insert_sort(void)
     }
     if (mark)
     {
-        cout << "your own insert sort result has passed the test!" << endl;
+        cout << "your own radix sort result has passed the test!" << endl;
     }
     else
     {
