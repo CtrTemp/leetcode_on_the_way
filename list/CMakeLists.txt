@@ -33,6 +33,8 @@ add_subdirectory(./app/01_test_reverse_list)
 add_subdirectory(./app/02_judge_huiwen_list)
 add_subdirectory(./app/03_test_list_partition)
 add_subdirectory(./app/04_random_list_copy)
+add_subdirectory(./app/05_judge_list_loop)
+add_subdirectory(./app/06_judge_list_intersect)
 
  
 

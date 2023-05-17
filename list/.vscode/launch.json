@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/app/04_random_list_copy/bin/random_list_copy",
+            "program": "${workspaceFolder}/app/05_judge_list_loop/bin/judge_list_loop",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

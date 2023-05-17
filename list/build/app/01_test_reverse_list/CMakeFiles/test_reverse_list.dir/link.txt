@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_reverse_list.dir/main.cpp.o -o ../../../app/01_test_reverse_list/bin/test_reverse_list  ../../src/libLIST_UTILS.a 

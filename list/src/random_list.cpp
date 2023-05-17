@@ -2,7 +2,7 @@
 
 void test_list_copy(void)
 {
-    cout << "start test reverse list" << endl;
+    cout << "start to test random list copy" << endl;
     // 创建带有随机指针的单链表
     Node<int> **node_head = new Node<int> *;
     gen_list_with_rand_ptr(node_head);

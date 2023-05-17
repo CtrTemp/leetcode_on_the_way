@@ -2,7 +2,7 @@
 
 void test_reverse_list(void)
 {
-    cout << "start test reverse list" << endl;
+    cout << "start to test reverse list" << endl;
     // 创建单链表
     Node<int> **node_head = new Node<int> *;
     gen_random_Node_list(node_head);

@@ -2,7 +2,7 @@
 
 void test_huiwen_list(void)
 {
-    cout << "start judge huiwen list" << endl;
+    cout << "start to judge huiwen list" << endl;
     // 创建单链表
     Node<int> **list_head = new Node<int> *;
     gen_random_Node_list(list_head);

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/judge_list_intersect.dir/main.cpp.o -o ../../../app/06_judge_list_intersect/bin/judge_list_intersect  ../../src/libLIST_UTILS.a 

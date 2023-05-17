@@ -20,7 +20,7 @@
 #include "algorithm"
 
 // 生成测试链表长度
-#define LIST_LENGTH 3
+#define LIST_LENGTH 10
 
 // 链表值的取值范围
 #define MAX_RAND_VAL 10
