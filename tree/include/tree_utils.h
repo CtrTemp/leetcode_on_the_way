@@ -1,7 +1,7 @@
 #ifndef LIST_UTILS_H
 #define LIST_UTILS_H
 
-#define SPECIFIED_TREE
+// #define SPECIFIED_TREE
 
 #include "stdio.h"
 #include "iostream"
@@ -10,6 +10,7 @@
 
 // 容器
 #include "string"
+#include "string.h"
 #include "vector"
 #include "list"
 #include "queue"
@@ -19,15 +20,21 @@
 #include "algorithm"
 
 // 生成完全二叉树节长度
-#define TREE_LIST_LENGTH 7
+#define TREE_LIST_LENGTH 10
 
 // 树中节点值的取值范围
-#define MAX_RAND_VAL 10
-#define MIN_RAND_VAL -10
+#define MAX_RAND_VAL 100
+#define MIN_RAND_VAL -100
 
 using namespace std;
 
 // 树状结构
+/**
+ *  一般二叉树不提供指向父节点的指针，但我们仍然添加指向父节点的指针，它将在以下例程中被使用到：
+ *  08_find_successor_node
+ *
+ *  其余例程均不涉及父节点指针的使用
+ * */
 template <class V>
 class Node
 {
@@ -43,10 +50,12 @@ public:
         value = val;
         left = nullptr;
         right = nullptr;
+        parent = nullptr;
     }
     V value;
     Node *left;
     Node *right;
+    Node *parent;
 };
 
 // 注释掉以下的一行 使其生成一棵树非完全二叉树，树中节点的值给定
@@ -62,13 +71,13 @@ void static gen_incomplete_binary_tree(Node<int> **root)
     (*root)->left->left->left = new Node<int>(8);
     (*root)->left->left->right = new Node<int>(9);
     (*root)->left->right->left = new Node<int>(10);
-    // (*root)->left->right->right = new Node<int>(11);  // 注释它使其变成非完全二叉树
+    (*root)->left->right->right = new Node<int>(11); // 注释它使其变成非完全二叉树
     (*root)->right->left->left = new Node<int>(12);
     (*root)->right->left->right = new Node<int>(13);
     (*root)->right->right->left = new Node<int>(14);
     (*root)->right->right->right = new Node<int>(15);
 
-    (*root)->left->left = nullptr; // 添加这句使得树变成非平衡二叉树
+    // (*root)->left->left = nullptr; // 添加这句使得树变成非平衡二叉树
 }
 
 // 生成一棵树完全二叉树，树中节点的值完全随机
@@ -93,7 +102,7 @@ void static gen_complete_binary_tree(Node<int> **root)
     }
     cout << endl;
 
-    // 连接左右孩子
+    // 连接左右孩子以及父节点
     for (int i = 0; i < tree_val_list.size(); i++)
     {
         int idx_l = i * 2 + 1;
@@ -101,10 +110,12 @@ void static gen_complete_binary_tree(Node<int> **root)
         if (idx_l < tree_val_list.size())
         {
             tree_node_list[i].left = &tree_node_list[idx_l];
+            tree_node_list[idx_l].parent = &tree_node_list[i];
         }
         if (idx_r < tree_val_list.size())
         {
             tree_node_list[i].right = &tree_node_list[idx_r];
+            tree_node_list[idx_r].parent = &tree_node_list[i];
         }
     }
 
@@ -289,6 +300,7 @@ void static width_first_travseral_print(Node<int> **root)
 
     queue<Node<int> *> node_queue;
     node_queue.push(*root);
+    cout << "width first print:";
     while (node_queue.size() != 0)
     {
         Node<int> *node_ref = node_queue.front();
@@ -303,6 +315,7 @@ void static width_first_travseral_print(Node<int> **root)
         }
         cout << node_ref->value << ", ";
     }
+    cout << endl;
 }
 
 #endif

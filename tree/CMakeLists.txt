@@ -36,6 +36,8 @@ add_subdirectory(./app/04_judge_complete_tree)
 add_subdirectory(./app/05_judge_full_tree)
 add_subdirectory(./app/06_judge_balance_tree)
 add_subdirectory(./app/07_find_common_ancestor)
+add_subdirectory(./app/08_find_successor_node)
+add_subdirectory(./app/09_tree_serialize)
 
  
 

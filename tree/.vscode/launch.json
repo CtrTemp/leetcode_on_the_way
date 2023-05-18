@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/app/05_judge_full_tree/bin/judge_full_tree",
+            "program": "${workspaceFolder}/app/09_tree_serialize/bin/tree_serialize",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
