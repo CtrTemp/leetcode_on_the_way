@@ -3,11 +3,11 @@
 
 #include "tree_utils.h"
 
-class huiwen_list_solution
+class traverse_tree_solution
 {
 public:
 };
 
-void test_tree_travseral(void);
+void test_tree_traversal(void);
 
 #endif

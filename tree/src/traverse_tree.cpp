@@ -1,6 +1,6 @@
 #include "traverse_tree.h"
 
-void test_tree_travseral(void)
+void test_tree_traversal(void)
 {
     cout << "start to test tree traversal" << endl;
 
