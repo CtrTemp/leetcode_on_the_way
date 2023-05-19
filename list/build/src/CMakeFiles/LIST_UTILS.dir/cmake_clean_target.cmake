@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libLIST_UTILS.a"
+  "../../lib/libLIST_UTILS.a"
 )

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list
+CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build
+CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build
 
 # Include any dependencies generated for this target.
 include app/03_test_list_partition/CMakeFiles/test_list_partition.dir/depend.make
@@ -72,16 +72,16 @@ include app/03_test_list_partition/CMakeFiles/test_list_partition.dir/flags.make
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.o: app/03_test_list_partition/CMakeFiles/test_list_partition.dir/flags.make
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.o: ../app/03_test_list_partition/main.cpp
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.o: app/03_test_list_partition/CMakeFiles/test_list_partition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/03_test_list_partition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.o -MF CMakeFiles/test_list_partition.dir/main.cpp.o.d -o CMakeFiles/test_list_partition.dir/main.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/03_test_list_partition/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/03_test_list_partition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.o -MF CMakeFiles/test_list_partition.dir/main.cpp.o.d -o CMakeFiles/test_list_partition.dir/main.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/03_test_list_partition/main.cpp
 
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_list_partition.dir/main.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/03_test_list_partition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/03_test_list_partition/main.cpp > CMakeFiles/test_list_partition.dir/main.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/03_test_list_partition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/03_test_list_partition/main.cpp > CMakeFiles/test_list_partition.dir/main.cpp.i
 
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_list_partition.dir/main.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/03_test_list_partition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/03_test_list_partition/main.cpp -o CMakeFiles/test_list_partition.dir/main.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/03_test_list_partition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/03_test_list_partition/main.cpp -o CMakeFiles/test_list_partition.dir/main.cpp.s
 
 # Object files for target test_list_partition
 test_list_partition_OBJECTS = \
@@ -92,20 +92,20 @@ test_list_partition_EXTERNAL_OBJECTS =
 
 ../app/03_test_list_partition/bin/test_list_partition: app/03_test_list_partition/CMakeFiles/test_list_partition.dir/main.cpp.o
 ../app/03_test_list_partition/bin/test_list_partition: app/03_test_list_partition/CMakeFiles/test_list_partition.dir/build.make
-../app/03_test_list_partition/bin/test_list_partition: src/libLIST_UTILS.a
+../app/03_test_list_partition/bin/test_list_partition: ../lib/libLIST_UTILS.a
 ../app/03_test_list_partition/bin/test_list_partition: app/03_test_list_partition/CMakeFiles/test_list_partition.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../app/03_test_list_partition/bin/test_list_partition"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/03_test_list_partition && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_list_partition.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../app/03_test_list_partition/bin/test_list_partition"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/03_test_list_partition && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_list_partition.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/build: ../app/03_test_list_partition/bin/test_list_partition
 .PHONY : app/03_test_list_partition/CMakeFiles/test_list_partition.dir/build
 
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/clean:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/03_test_list_partition && $(CMAKE_COMMAND) -P CMakeFiles/test_list_partition.dir/cmake_clean.cmake
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/03_test_list_partition && $(CMAKE_COMMAND) -P CMakeFiles/test_list_partition.dir/cmake_clean.cmake
 .PHONY : app/03_test_list_partition/CMakeFiles/test_list_partition.dir/clean
 
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/depend:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/03_test_list_partition /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/03_test_list_partition /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/03_test_list_partition/CMakeFiles/test_list_partition.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/03_test_list_partition /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/03_test_list_partition /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/03_test_list_partition/CMakeFiles/test_list_partition.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/03_test_list_partition/CMakeFiles/test_list_partition.dir/depend
 

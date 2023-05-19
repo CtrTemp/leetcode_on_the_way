@@ -1,4 +1,4 @@
-# Install script for directory: /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/01_test_reverse_list
+# Install script for directory: /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/01_test_reverse_list
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

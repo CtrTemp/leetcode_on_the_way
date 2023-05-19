@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/test_list_partition.dir/main.cpp.o -o ../../../app/03_test_list_partition/bin/test_list_partition  ../../src/libLIST_UTILS.a 
+/usr/bin/c++ -g CMakeFiles/test_list_partition.dir/main.cpp.o -o ../../../app/03_test_list_partition/bin/test_list_partition  ../../../lib/libLIST_UTILS.a 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list
+CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build
+CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/04_random_list_copy//CMakeFiles/progress.marks
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/04_random_list_copy//CMakeFiles/progress.marks
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/clean
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/preinstall
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/preinstall
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/04_random_list_copy/CMakeFiles/random_list_copy.dir/rule:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/CMakeFiles/random_list_copy.dir/rule
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/CMakeFiles/random_list_copy.dir/rule
 .PHONY : app/04_random_list_copy/CMakeFiles/random_list_copy.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ random_list_copy: app/04_random_list_copy/CMakeFiles/random_list_copy.dir/rule
 
 # fast build rule for target.
 random_list_copy/fast:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build
 .PHONY : random_list_copy/fast
 
 main.o: main.cpp.o
@@ -135,7 +135,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/main.cpp.o
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/main.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/main.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

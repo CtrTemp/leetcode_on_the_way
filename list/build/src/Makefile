@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list
+CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build
+CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src//CMakeFiles/progress.marks
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src//CMakeFiles/progress.marks
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/LIST_UTILS.dir/rule:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LIST_UTILS.dir/rule
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LIST_UTILS.dir/rule
 .PHONY : src/CMakeFiles/LIST_UTILS.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ LIST_UTILS: src/CMakeFiles/LIST_UTILS.dir/rule
 
 # fast build rule for target.
 LIST_UTILS/fast:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/build
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/build
 .PHONY : LIST_UTILS/fast
 
 huiwen_list.o: huiwen_list.cpp.o
@@ -135,7 +135,7 @@ huiwen_list.o: huiwen_list.cpp.o
 
 # target to build an object file
 huiwen_list.cpp.o:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o
 .PHONY : huiwen_list.cpp.o
 
 huiwen_list.i: huiwen_list.cpp.i
@@ -143,7 +143,7 @@ huiwen_list.i: huiwen_list.cpp.i
 
 # target to preprocess a source file
 huiwen_list.cpp.i:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.i
 .PHONY : huiwen_list.cpp.i
 
 huiwen_list.s: huiwen_list.cpp.s
@@ -151,7 +151,7 @@ huiwen_list.s: huiwen_list.cpp.s
 
 # target to generate assembly for a file
 huiwen_list.cpp.s:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.s
 .PHONY : huiwen_list.cpp.s
 
 list_intersect.o: list_intersect.cpp.o
@@ -159,7 +159,7 @@ list_intersect.o: list_intersect.cpp.o
 
 # target to build an object file
 list_intersect.cpp.o:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o
 .PHONY : list_intersect.cpp.o
 
 list_intersect.i: list_intersect.cpp.i
@@ -167,7 +167,7 @@ list_intersect.i: list_intersect.cpp.i
 
 # target to preprocess a source file
 list_intersect.cpp.i:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.i
 .PHONY : list_intersect.cpp.i
 
 list_intersect.s: list_intersect.cpp.s
@@ -175,7 +175,7 @@ list_intersect.s: list_intersect.cpp.s
 
 # target to generate assembly for a file
 list_intersect.cpp.s:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.s
 .PHONY : list_intersect.cpp.s
 
 list_loop.o: list_loop.cpp.o
@@ -183,7 +183,7 @@ list_loop.o: list_loop.cpp.o
 
 # target to build an object file
 list_loop.cpp.o:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o
 .PHONY : list_loop.cpp.o
 
 list_loop.i: list_loop.cpp.i
@@ -191,7 +191,7 @@ list_loop.i: list_loop.cpp.i
 
 # target to preprocess a source file
 list_loop.cpp.i:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.i
 .PHONY : list_loop.cpp.i
 
 list_loop.s: list_loop.cpp.s
@@ -199,7 +199,7 @@ list_loop.s: list_loop.cpp.s
 
 # target to generate assembly for a file
 list_loop.cpp.s:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.s
 .PHONY : list_loop.cpp.s
 
 list_partition.o: list_partition.cpp.o
@@ -207,7 +207,7 @@ list_partition.o: list_partition.cpp.o
 
 # target to build an object file
 list_partition.cpp.o:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o
 .PHONY : list_partition.cpp.o
 
 list_partition.i: list_partition.cpp.i
@@ -215,7 +215,7 @@ list_partition.i: list_partition.cpp.i
 
 # target to preprocess a source file
 list_partition.cpp.i:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.i
 .PHONY : list_partition.cpp.i
 
 list_partition.s: list_partition.cpp.s
@@ -223,7 +223,7 @@ list_partition.s: list_partition.cpp.s
 
 # target to generate assembly for a file
 list_partition.cpp.s:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.s
 .PHONY : list_partition.cpp.s
 
 random_list.o: random_list.cpp.o
@@ -231,7 +231,7 @@ random_list.o: random_list.cpp.o
 
 # target to build an object file
 random_list.cpp.o:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o
 .PHONY : random_list.cpp.o
 
 random_list.i: random_list.cpp.i
@@ -239,7 +239,7 @@ random_list.i: random_list.cpp.i
 
 # target to preprocess a source file
 random_list.cpp.i:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.i
 .PHONY : random_list.cpp.i
 
 random_list.s: random_list.cpp.s
@@ -247,7 +247,7 @@ random_list.s: random_list.cpp.s
 
 # target to generate assembly for a file
 random_list.cpp.s:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.s
 .PHONY : random_list.cpp.s
 
 reverse_list.o: reverse_list.cpp.o
@@ -255,7 +255,7 @@ reverse_list.o: reverse_list.cpp.o
 
 # target to build an object file
 reverse_list.cpp.o:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o
 .PHONY : reverse_list.cpp.o
 
 reverse_list.i: reverse_list.cpp.i
@@ -263,7 +263,7 @@ reverse_list.i: reverse_list.cpp.i
 
 # target to preprocess a source file
 reverse_list.cpp.i:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.i
 .PHONY : reverse_list.cpp.i
 
 reverse_list.s: reverse_list.cpp.s
@@ -271,7 +271,7 @@ reverse_list.s: reverse_list.cpp.s
 
 # target to generate assembly for a file
 reverse_list.cpp.s:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.s
 .PHONY : reverse_list.cpp.s
 
 # Help Target
@@ -312,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

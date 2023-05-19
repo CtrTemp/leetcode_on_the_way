@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list
+CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build
+CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build
 
 # Include any dependencies generated for this target.
 include app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/depend.make
@@ -72,16 +72,16 @@ include app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/flags.make
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o: app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/flags.make
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o: ../app/01_test_reverse_list/main.cpp
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o: app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/01_test_reverse_list && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o -MF CMakeFiles/test_reverse_list.dir/main.cpp.o.d -o CMakeFiles/test_reverse_list.dir/main.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/01_test_reverse_list/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/01_test_reverse_list && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o -MF CMakeFiles/test_reverse_list.dir/main.cpp.o.d -o CMakeFiles/test_reverse_list.dir/main.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/01_test_reverse_list/main.cpp
 
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_reverse_list.dir/main.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/01_test_reverse_list && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/01_test_reverse_list/main.cpp > CMakeFiles/test_reverse_list.dir/main.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/01_test_reverse_list && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/01_test_reverse_list/main.cpp > CMakeFiles/test_reverse_list.dir/main.cpp.i
 
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_reverse_list.dir/main.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/01_test_reverse_list && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/01_test_reverse_list/main.cpp -o CMakeFiles/test_reverse_list.dir/main.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/01_test_reverse_list && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/01_test_reverse_list/main.cpp -o CMakeFiles/test_reverse_list.dir/main.cpp.s
 
 # Object files for target test_reverse_list
 test_reverse_list_OBJECTS = \
@@ -92,20 +92,20 @@ test_reverse_list_EXTERNAL_OBJECTS =
 
 ../app/01_test_reverse_list/bin/test_reverse_list: app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o
 ../app/01_test_reverse_list/bin/test_reverse_list: app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/build.make
-../app/01_test_reverse_list/bin/test_reverse_list: src/libLIST_UTILS.a
+../app/01_test_reverse_list/bin/test_reverse_list: ../lib/libLIST_UTILS.a
 ../app/01_test_reverse_list/bin/test_reverse_list: app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../app/01_test_reverse_list/bin/test_reverse_list"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/01_test_reverse_list && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_reverse_list.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../app/01_test_reverse_list/bin/test_reverse_list"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/01_test_reverse_list && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_reverse_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/build: ../app/01_test_reverse_list/bin/test_reverse_list
 .PHONY : app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/build
 
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/clean:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/01_test_reverse_list && $(CMAKE_COMMAND) -P CMakeFiles/test_reverse_list.dir/cmake_clean.cmake
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/01_test_reverse_list && $(CMAKE_COMMAND) -P CMakeFiles/test_reverse_list.dir/cmake_clean.cmake
 .PHONY : app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/clean
 
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/depend:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/01_test_reverse_list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/01_test_reverse_list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/01_test_reverse_list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/01_test_reverse_list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/06_judge_list_intersect
+# Install script for directory: /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/06_judge_list_intersect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

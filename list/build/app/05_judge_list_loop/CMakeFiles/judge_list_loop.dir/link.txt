@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/judge_list_loop.dir/main.cpp.o -o ../../../app/05_judge_list_loop/bin/judge_list_loop  ../../src/libLIST_UTILS.a 
+/usr/bin/c++ -g CMakeFiles/judge_list_loop.dir/main.cpp.o -o ../../../app/05_judge_list_loop/bin/judge_list_loop  ../../../lib/libLIST_UTILS.a 

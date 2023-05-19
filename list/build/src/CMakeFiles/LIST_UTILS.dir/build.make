@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list
+CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build
+CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/LIST_UTILS.dir/depend.make
@@ -72,86 +72,86 @@ include src/CMakeFiles/LIST_UTILS.dir/flags.make
 src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o: src/CMakeFiles/LIST_UTILS.dir/flags.make
 src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o: ../src/huiwen_list.cpp
 src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o: src/CMakeFiles/LIST_UTILS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o -MF CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/huiwen_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o -MF CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/huiwen_list.cpp
 
 src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/huiwen_list.cpp > CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/huiwen_list.cpp > CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.i
 
 src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/huiwen_list.cpp -o CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/huiwen_list.cpp -o CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.s
 
 src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o: src/CMakeFiles/LIST_UTILS.dir/flags.make
 src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o: ../src/list_intersect.cpp
 src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o: src/CMakeFiles/LIST_UTILS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o -MF CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_intersect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o -MF CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_intersect.cpp
 
 src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_intersect.cpp > CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_intersect.cpp > CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.i
 
 src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_intersect.cpp -o CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_intersect.cpp -o CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.s
 
 src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o: src/CMakeFiles/LIST_UTILS.dir/flags.make
 src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o: ../src/list_loop.cpp
 src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o: src/CMakeFiles/LIST_UTILS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o -MF CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_loop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o -MF CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_loop.cpp
 
 src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LIST_UTILS.dir/list_loop.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_loop.cpp > CMakeFiles/LIST_UTILS.dir/list_loop.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_loop.cpp > CMakeFiles/LIST_UTILS.dir/list_loop.cpp.i
 
 src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LIST_UTILS.dir/list_loop.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_loop.cpp -o CMakeFiles/LIST_UTILS.dir/list_loop.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_loop.cpp -o CMakeFiles/LIST_UTILS.dir/list_loop.cpp.s
 
 src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o: src/CMakeFiles/LIST_UTILS.dir/flags.make
 src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o: ../src/list_partition.cpp
 src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o: src/CMakeFiles/LIST_UTILS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o -MF CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_partition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o -MF CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_partition.cpp
 
 src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LIST_UTILS.dir/list_partition.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_partition.cpp > CMakeFiles/LIST_UTILS.dir/list_partition.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_partition.cpp > CMakeFiles/LIST_UTILS.dir/list_partition.cpp.i
 
 src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LIST_UTILS.dir/list_partition.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/list_partition.cpp -o CMakeFiles/LIST_UTILS.dir/list_partition.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/list_partition.cpp -o CMakeFiles/LIST_UTILS.dir/list_partition.cpp.s
 
 src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o: src/CMakeFiles/LIST_UTILS.dir/flags.make
 src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o: ../src/random_list.cpp
 src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o: src/CMakeFiles/LIST_UTILS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o -MF CMakeFiles/LIST_UTILS.dir/random_list.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/random_list.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/random_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o -MF CMakeFiles/LIST_UTILS.dir/random_list.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/random_list.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/random_list.cpp
 
 src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LIST_UTILS.dir/random_list.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/random_list.cpp > CMakeFiles/LIST_UTILS.dir/random_list.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/random_list.cpp > CMakeFiles/LIST_UTILS.dir/random_list.cpp.i
 
 src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LIST_UTILS.dir/random_list.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/random_list.cpp -o CMakeFiles/LIST_UTILS.dir/random_list.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/random_list.cpp -o CMakeFiles/LIST_UTILS.dir/random_list.cpp.s
 
 src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o: src/CMakeFiles/LIST_UTILS.dir/flags.make
 src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o: ../src/reverse_list.cpp
 src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o: src/CMakeFiles/LIST_UTILS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o -MF CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/reverse_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o -MF CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o.d -o CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/reverse_list.cpp
 
 src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/reverse_list.cpp > CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/reverse_list.cpp > CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.i
 
 src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src/reverse_list.cpp -o CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src/reverse_list.cpp -o CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.s
 
 # Object files for target LIST_UTILS
 LIST_UTILS_OBJECTS = \
@@ -165,27 +165,27 @@ LIST_UTILS_OBJECTS = \
 # External object files for target LIST_UTILS
 LIST_UTILS_EXTERNAL_OBJECTS =
 
-src/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o
-src/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o
-src/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o
-src/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o
-src/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o
-src/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o
-src/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/build.make
-src/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libLIST_UTILS.a"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && $(CMAKE_COMMAND) -P CMakeFiles/LIST_UTILS.dir/cmake_clean_target.cmake
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LIST_UTILS.dir/link.txt --verbose=$(VERBOSE)
+../lib/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o
+../lib/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o
+../lib/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/list_loop.cpp.o
+../lib/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/list_partition.cpp.o
+../lib/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/random_list.cpp.o
+../lib/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o
+../lib/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/build.make
+../lib/libLIST_UTILS.a: src/CMakeFiles/LIST_UTILS.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../lib/libLIST_UTILS.a"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && $(CMAKE_COMMAND) -P CMakeFiles/LIST_UTILS.dir/cmake_clean_target.cmake
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LIST_UTILS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/LIST_UTILS.dir/build: src/libLIST_UTILS.a
+src/CMakeFiles/LIST_UTILS.dir/build: ../lib/libLIST_UTILS.a
 .PHONY : src/CMakeFiles/LIST_UTILS.dir/build
 
 src/CMakeFiles/LIST_UTILS.dir/clean:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src && $(CMAKE_COMMAND) -P CMakeFiles/LIST_UTILS.dir/cmake_clean.cmake
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src && $(CMAKE_COMMAND) -P CMakeFiles/LIST_UTILS.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/LIST_UTILS.dir/clean
 
 src/CMakeFiles/LIST_UTILS.dir/depend:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/src /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src/CMakeFiles/LIST_UTILS.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/src /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src/CMakeFiles/LIST_UTILS.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/LIST_UTILS.dir/depend
 

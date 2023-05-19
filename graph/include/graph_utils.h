@@ -1,7 +1,7 @@
 #ifndef LIST_UTILS_H
 #define LIST_UTILS_H
 
-// #define SPECIFIED_TREE
+#define SPECIFIED_GRAPH
 
 #include "stdio.h"
 #include "iostream"
@@ -23,7 +23,7 @@
 #include "unordered_set"
 
 // 图规模（节点个数）
-#define GRAPH_NODE_LIST_LENGTH 6
+#define GRAPH_NODE_LIST_LENGTH 4
 
 // 图中节点值的取值范围
 #define MAX_RAND_NODE_VAL 100
@@ -103,15 +103,55 @@ public:
 void static construct_graph_from_adjancency_matrix(_Graph_ &graph, bool isDirected, int **nodeList, int ***E_Matrix)
 {
     srand(time(0));
+    int graph_size = GRAPH_NODE_LIST_LENGTH;
+
+#ifdef SPECIFIED_GRAPH
+
+    // int specified_matrix[graph_size][graph_size] = {
+    //     {0, 2, 3, 4, 0, 0, 0},
+    //     {0, 0, 0, 0, 5, 6, 0},
+    //     {0, 0, 0, 0, 0, 0, 0},
+    //     {0, 0, 0, 0, 0, 0, 0},
+    //     {0, 0, 0, 0, 0, 0, 0},
+    //     {0, 0, 0, 0, 0, 0, 7},
+    //     {0, 0, 0, 0, 0, 0, 0}};
+
+    // int specified_node_list[graph_size] = {2, 8, 1, 6, 5, 3, 4};
+
+    int specified_matrix[graph_size][graph_size] = {
+        {0, 2, 3, 4},
+        {2, 0, 100, 400},
+        {3, 100, 0, 300},
+        {4, 300, 300, 0}};
+
+    int specified_node_list[graph_size] = {1, 2, 3, 4};
+
+#endif
+
+    // #else
+
     // 边邻接表生成
-    *E_Matrix = new int *[GRAPH_NODE_LIST_LENGTH];
-    for (int i = 0; i < GRAPH_NODE_LIST_LENGTH; i++)
+    *E_Matrix = new int *[graph_size];
+    for (int i = 0; i < graph_size; i++)
     {
-        (*E_Matrix)[i] = new int[GRAPH_NODE_LIST_LENGTH];
+        (*E_Matrix)[i] = new int[graph_size];
     }
-    for (int i = 0; i < GRAPH_NODE_LIST_LENGTH; i++)
+
+#ifdef SPECIFIED_GRAPH
+
+    for (int i = 0; i < graph_size; i++)
     {
-        for (int j = i; j < GRAPH_NODE_LIST_LENGTH; j++)
+        for (int j = 0; j < graph_size; j++)
+        {
+            (*E_Matrix)[i][j] = specified_matrix[i][j];
+        }
+    }
+
+#else
+
+    for (int i = 0; i < graph_size; i++)
+    {
+        for (int j = i; j < graph_size; j++)
         {
             if (i == j)
             {
@@ -132,21 +172,28 @@ void static construct_graph_from_adjancency_matrix(_Graph_ &graph, bool isDirect
             }
         }
     }
+
+#endif
     // 创建节点
-    Node *node_vec = new Node[GRAPH_NODE_LIST_LENGTH];
-    *nodeList = new int[GRAPH_NODE_LIST_LENGTH];
-    for (int i = 0; i < GRAPH_NODE_LIST_LENGTH; i++)
+    Node *node_vec = new Node[graph_size];
+    *nodeList = new int[graph_size];
+
+    for (int i = 0; i < graph_size; i++)
     {
+#ifdef SPECIFIED_GRAPH
+        int rand_val = specified_node_list[i];
+#else
         int rand_val = rand() % (MAX_RAND_NODE_VAL - MIN_RAND_NODE_VAL) + MIN_RAND_NODE_VAL;
+#endif
+
         Node new_node(rand_val);
         node_vec[i] = new_node;
         (*nodeList)[i] = rand_val; // 同样为要返回的节点列表赋值
     }
-
     // 从邻接表构图
-    for (int i = 0; i < GRAPH_NODE_LIST_LENGTH; i++)
+    for (int i = 0; i < graph_size; i++)
     {
-        for (int j = i; j < GRAPH_NODE_LIST_LENGTH; j++)
+        for (int j = 0; j < graph_size; j++)
         {
             int edge_weight = (*E_Matrix)[i][j];
             if (edge_weight != 0) // 当前边存在，从 i 指向 j
@@ -162,7 +209,7 @@ void static construct_graph_from_adjancency_matrix(_Graph_ &graph, bool isDirect
         }
     }
     // 将编辑好的节点加入图的哈希表
-    for (int i = 0; i < GRAPH_NODE_LIST_LENGTH; i++)
+    for (int i = 0; i < graph_size; i++)
     {
         graph.nodes.emplace(i, &node_vec[i]);
     }

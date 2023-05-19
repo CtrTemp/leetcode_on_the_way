@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../../lib/libLIST_UTILS.a"
+  "../../lib/libLIST_UTILS.pdb"
   "CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o"
   "CMakeFiles/LIST_UTILS.dir/huiwen_list.cpp.o.d"
   "CMakeFiles/LIST_UTILS.dir/list_intersect.cpp.o"
@@ -11,8 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/LIST_UTILS.dir/random_list.cpp.o.d"
   "CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o"
   "CMakeFiles/LIST_UTILS.dir/reverse_list.cpp.o.d"
-  "libLIST_UTILS.a"
-  "libLIST_UTILS.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/app/09_tree_serialize/bin/tree_serialize",
+            "program": "${workspaceFolder}/app/01_topological_sort/bin/topological_sort",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

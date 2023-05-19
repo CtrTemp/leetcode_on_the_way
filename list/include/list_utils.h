@@ -23,8 +23,12 @@
 #define LIST_LENGTH 10
 
 // 链表值的取值范围
+#ifndef MAX_RAND_VAL
 #define MAX_RAND_VAL 10
+#endif
+#ifndef MIN_RAND_VAL
 #define MIN_RAND_VAL -10
+#endif
 
 using namespace std;
 

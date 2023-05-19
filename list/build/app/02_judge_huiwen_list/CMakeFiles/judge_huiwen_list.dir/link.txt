@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/judge_huiwen_list.dir/main.cpp.o -o ../../../app/02_judge_huiwen_list/bin/judge_huiwen_list  ../../src/libLIST_UTILS.a 
+/usr/bin/c++ -g CMakeFiles/judge_huiwen_list.dir/main.cpp.o -o ../../../app/02_judge_huiwen_list/bin/judge_huiwen_list  ../../../lib/libLIST_UTILS.a 

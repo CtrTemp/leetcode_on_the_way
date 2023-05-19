@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/01_test_reverse_list/main.cpp" "app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o" "gcc" "app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o.d"
+  "/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/01_test_reverse_list/main.cpp" "app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o" "gcc" "app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/src/CMakeFiles/LIST_UTILS.dir/DependInfo.cmake"
+  "/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/src/CMakeFiles/LIST_UTILS.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

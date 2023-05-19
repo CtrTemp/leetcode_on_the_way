@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list
+CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build
+CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -204,14 +204,14 @@ src/clean: src/CMakeFiles/LIST_UTILS.dir/clean
 src/CMakeFiles/LIST_UTILS.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LIST_UTILS.dir/build.make src/CMakeFiles/LIST_UTILS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target LIST_UTILS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target LIST_UTILS"
 .PHONY : src/CMakeFiles/LIST_UTILS.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/LIST_UTILS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LIST_UTILS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/LIST_UTILS.dir/rule
 
 # Convenience name for target.
@@ -230,14 +230,14 @@ src/CMakeFiles/LIST_UTILS.dir/clean:
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/all: src/CMakeFiles/LIST_UTILS.dir/all
 	$(MAKE) $(MAKESILENT) -f app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/build.make app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/build.make app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=18,19 "Built target test_reverse_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=18,19 "Built target test_reverse_list"
 .PHONY : app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/all
 
 # Build rule for subdir invocation for target.
 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/rule
 
 # Convenience name for target.
@@ -256,14 +256,14 @@ app/01_test_reverse_list/CMakeFiles/test_reverse_list.dir/clean:
 app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/all: src/CMakeFiles/LIST_UTILS.dir/all
 	$(MAKE) $(MAKESILENT) -f app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/build.make app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/build.make app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=8,9 "Built target judge_huiwen_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=8,9 "Built target judge_huiwen_list"
 .PHONY : app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/all
 
 # Build rule for subdir invocation for target.
 app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/rule
 
 # Convenience name for target.
@@ -282,14 +282,14 @@ app/02_judge_huiwen_list/CMakeFiles/judge_huiwen_list.dir/clean:
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/all: src/CMakeFiles/LIST_UTILS.dir/all
 	$(MAKE) $(MAKESILENT) -f app/03_test_list_partition/CMakeFiles/test_list_partition.dir/build.make app/03_test_list_partition/CMakeFiles/test_list_partition.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/03_test_list_partition/CMakeFiles/test_list_partition.dir/build.make app/03_test_list_partition/CMakeFiles/test_list_partition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=16,17 "Built target test_list_partition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=16,17 "Built target test_list_partition"
 .PHONY : app/03_test_list_partition/CMakeFiles/test_list_partition.dir/all
 
 # Build rule for subdir invocation for target.
 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/03_test_list_partition/CMakeFiles/test_list_partition.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : app/03_test_list_partition/CMakeFiles/test_list_partition.dir/rule
 
 # Convenience name for target.
@@ -308,14 +308,14 @@ app/03_test_list_partition/CMakeFiles/test_list_partition.dir/clean:
 app/04_random_list_copy/CMakeFiles/random_list_copy.dir/all: src/CMakeFiles/LIST_UTILS.dir/all
 	$(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build.make app/04_random_list_copy/CMakeFiles/random_list_copy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=14,15 "Built target random_list_copy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=14,15 "Built target random_list_copy"
 .PHONY : app/04_random_list_copy/CMakeFiles/random_list_copy.dir/all
 
 # Build rule for subdir invocation for target.
 app/04_random_list_copy/CMakeFiles/random_list_copy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/04_random_list_copy/CMakeFiles/random_list_copy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : app/04_random_list_copy/CMakeFiles/random_list_copy.dir/rule
 
 # Convenience name for target.
@@ -334,14 +334,14 @@ app/04_random_list_copy/CMakeFiles/random_list_copy.dir/clean:
 app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/all: src/CMakeFiles/LIST_UTILS.dir/all
 	$(MAKE) $(MAKESILENT) -f app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/build.make app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/build.make app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=12,13 "Built target judge_list_loop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=12,13 "Built target judge_list_loop"
 .PHONY : app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/all
 
 # Build rule for subdir invocation for target.
 app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/rule
 
 # Convenience name for target.
@@ -360,14 +360,14 @@ app/05_judge_list_loop/CMakeFiles/judge_list_loop.dir/clean:
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/all: src/CMakeFiles/LIST_UTILS.dir/all
 	$(MAKE) $(MAKESILENT) -f app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/build.make app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/build.make app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=10,11 "Built target judge_list_intersect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=10,11 "Built target judge_list_intersect"
 .PHONY : app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/all
 
 # Build rule for subdir invocation for target.
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles 0
 .PHONY : app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/rule
 
 # Convenience name for target.

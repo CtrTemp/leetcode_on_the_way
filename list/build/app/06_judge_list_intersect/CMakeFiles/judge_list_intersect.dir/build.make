@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list
+CMAKE_SOURCE_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build
+CMAKE_BINARY_DIR = /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build
 
 # Include any dependencies generated for this target.
 include app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/depend.make
@@ -72,16 +72,16 @@ include app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/flags.ma
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.o: app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/flags.make
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.o: ../app/06_judge_list_intersect/main.cpp
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.o: app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.o"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/06_judge_list_intersect && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.o -MF CMakeFiles/judge_list_intersect.dir/main.cpp.o.d -o CMakeFiles/judge_list_intersect.dir/main.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/06_judge_list_intersect/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.o"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/06_judge_list_intersect && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.o -MF CMakeFiles/judge_list_intersect.dir/main.cpp.o.d -o CMakeFiles/judge_list_intersect.dir/main.cpp.o -c /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/06_judge_list_intersect/main.cpp
 
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/judge_list_intersect.dir/main.cpp.i"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/06_judge_list_intersect && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/06_judge_list_intersect/main.cpp > CMakeFiles/judge_list_intersect.dir/main.cpp.i
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/06_judge_list_intersect && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/06_judge_list_intersect/main.cpp > CMakeFiles/judge_list_intersect.dir/main.cpp.i
 
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/judge_list_intersect.dir/main.cpp.s"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/06_judge_list_intersect && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/06_judge_list_intersect/main.cpp -o CMakeFiles/judge_list_intersect.dir/main.cpp.s
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/06_judge_list_intersect && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/06_judge_list_intersect/main.cpp -o CMakeFiles/judge_list_intersect.dir/main.cpp.s
 
 # Object files for target judge_list_intersect
 judge_list_intersect_OBJECTS = \
@@ -92,20 +92,20 @@ judge_list_intersect_EXTERNAL_OBJECTS =
 
 ../app/06_judge_list_intersect/bin/judge_list_intersect: app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/main.cpp.o
 ../app/06_judge_list_intersect/bin/judge_list_intersect: app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/build.make
-../app/06_judge_list_intersect/bin/judge_list_intersect: src/libLIST_UTILS.a
+../app/06_judge_list_intersect/bin/judge_list_intersect: ../lib/libLIST_UTILS.a
 ../app/06_judge_list_intersect/bin/judge_list_intersect: app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../app/06_judge_list_intersect/bin/judge_list_intersect"
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/06_judge_list_intersect && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/judge_list_intersect.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../app/06_judge_list_intersect/bin/judge_list_intersect"
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/06_judge_list_intersect && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/judge_list_intersect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/build: ../app/06_judge_list_intersect/bin/judge_list_intersect
 .PHONY : app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/build
 
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/clean:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/06_judge_list_intersect && $(CMAKE_COMMAND) -P CMakeFiles/judge_list_intersect.dir/cmake_clean.cmake
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/06_judge_list_intersect && $(CMAKE_COMMAND) -P CMakeFiles/judge_list_intersect.dir/cmake_clean.cmake
 .PHONY : app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/clean
 
 app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/depend:
-	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/app/06_judge_list_intersect /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/06_judge_list_intersect /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/05__230517/leetcode_on_the_way/list/build/app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/app/06_judge_list_intersect /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/06_judge_list_intersect /home/ctrtemp/Documents/VS_Code_Prj/Learning/LeetCode/08__230519/leetcode_on_the_way/list/build/app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/06_judge_list_intersect/CMakeFiles/judge_list_intersect.dir/depend
 

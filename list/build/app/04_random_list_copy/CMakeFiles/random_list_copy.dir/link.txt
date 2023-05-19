@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/random_list_copy.dir/main.cpp.o -o ../../../app/04_random_list_copy/bin/random_list_copy  ../../src/libLIST_UTILS.a 
+/usr/bin/c++ -g CMakeFiles/random_list_copy.dir/main.cpp.o -o ../../../app/04_random_list_copy/bin/random_list_copy  ../../../lib/libLIST_UTILS.a 
