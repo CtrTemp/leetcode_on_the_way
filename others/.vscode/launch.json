@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/others/app/01_test_prefix_tree/bin/test_prefix_tree",
+            "program": "${workspaceFolder}/app/01_test_prefix_tree/bin/test_prefix_tree",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
