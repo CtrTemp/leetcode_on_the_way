@@ -122,7 +122,7 @@ void static construct_graph_from_adjancency_matrix(_Graph_ &graph, bool isDirect
         {0, 2, 3, 4},
         {2, 0, 100, 400},
         {3, 100, 0, 300},
-        {4, 300, 300, 0}};
+        {4, 400, 300, 0}};
 
     int specified_node_list[graph_size] = {1, 2, 3, 4};
 

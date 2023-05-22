@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/graph/app/03_min_spanning_tree/bin/min_spanning_tree",
+            "program": "${workspaceFolder}/graph/app/04_dijkstra_min_path/bin/dijkstra_min_path",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

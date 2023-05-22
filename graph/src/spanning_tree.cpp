@@ -15,4 +15,5 @@ void test_generating_spanning_tree(void)
     min_spanning_tree_solution spanning_tree_obj;
     // spanning_tree_obj.p();
     spanning_tree_obj.kruskalMST(graph);
+    spanning_tree_obj.primMST(graph);
 }

@@ -30,6 +30,7 @@ add_subdirectory(./src)
 add_subdirectory(./app/01_test_graph_traversal)
 add_subdirectory(./app/02_topological_sort)
 add_subdirectory(./app/03_min_spanning_tree)
+add_subdirectory(./app/04_dijkstra_min_path)
 
  
 
