@@ -46,6 +46,7 @@ public:
     {
         Node *ret_node = new Node;
         int minDistance = INT32_MAX;
+        // 这里我们是使用遍历的方式选取的distanceMap中的最小值，还有可优化的空间，比如使用堆
         for (unordered_map<Node *, int>::iterator iter = distanceMap.begin(); iter != distanceMap.end(); iter++)
         {
             // 值更小，且这个节点还没有在 selected node 中出现过
