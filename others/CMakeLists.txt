@@ -31,5 +31,6 @@ add_subdirectory(./app/01_test_prefix_tree)
 add_subdirectory(./app/02_greedy_is_good)
 add_subdirectory(./app/03_median_val)
 add_subdirectory(./app/04_n_queen)
+add_subdirectory(./app/05_hanoi_tower)
 
 

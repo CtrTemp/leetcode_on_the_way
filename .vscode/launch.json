@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/others/app/03_median_val/bin/median_val",
+            "program": "${workspaceFolder}/graph/app/04_dijkstra_min_path/bin/dijkstra_min_path",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
