@@ -45,7 +45,7 @@ public:
         /**
          *  1、第一步将前1～i-1个套环从 from 移动到 other（此时to将充当other的角色）
          *  2、第二步将第i个套环从 from 移动到 to，这步可以直接打印
-         *  3、第三步将 other 上的 i-1 个套环移动到 other（此时from将充当other的角色）
+         *  3、第三步将 other 上的 i-1 个套环移动到 to（此时from将充当other的角色）
          * */
         if (i == 1) // base case
         {

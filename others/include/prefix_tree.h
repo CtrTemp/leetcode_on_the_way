@@ -22,23 +22,12 @@
 #include "unordered_map"
 #include "unordered_set"
 
-// // 图规模（节点个数）
-// #define GRAPH_NODE_LIST_LENGTH 4
-
-// // 图中节点值的取值范围
-// #define MAX_RAND_NODE_VAL 100
-// #define MIN_RAND_NODE_VAL -100
-
-// // 图中边权重的取值范围（注意，一般情况下，边的权重都不小于0）
-// #define MAX_RAND_EDGE_VAL 10
-// #define MIN_RAND_EDGE_VAL 0
 
 using namespace std;
 
-class Edge; // 两个类互引，后定义的要在前面加声名
 
 /**
- *  前缀树结构节点
+ *  前缀树结构节点（数组存储，之支持存放小写字母）
  * */
 class TrieNode
 {
