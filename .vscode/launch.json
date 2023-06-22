@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/graph/app/04_dijkstra_min_path/bin/dijkstra_min_path",
+            "program": "${workspaceFolder}/practice/lc0051/build/lc51",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

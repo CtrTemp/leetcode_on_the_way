@@ -20,8 +20,11 @@ set(CMAKE_BUILD_TYPE DEBUG)
 
 
 
-add_subdirectory(./lc297)
-
+add_subdirectory(./lc0004)
+add_subdirectory(./lc0051)
+add_subdirectory(./lc0072)
+add_subdirectory(./lc0076)
+add_subdirectory(./lc0297)
  
 
 
