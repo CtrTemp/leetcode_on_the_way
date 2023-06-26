@@ -71,6 +71,7 @@
         "__tree": "cpp",
         "queue": "cpp",
         "stack": "cpp",
-        "__bit_reference": "cpp"
+        "__bit_reference": "cpp",
+        "__locale": "cpp"
     }
 }

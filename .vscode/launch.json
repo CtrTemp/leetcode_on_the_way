@@ -8,7 +8,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/practice/lc0051/build/lc51",
+            "program": "${workspaceFolder}/practice/lc0394/build/lc394",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

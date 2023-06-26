@@ -25,6 +25,8 @@ add_subdirectory(./lc0051)
 add_subdirectory(./lc0072)
 add_subdirectory(./lc0076)
 add_subdirectory(./lc0297)
+add_subdirectory(./lc0394)
+add_subdirectory(./lc1043)
  
 
 
