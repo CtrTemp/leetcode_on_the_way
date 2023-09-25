@@ -38,6 +38,7 @@ add_subdirectory(./app/06_judge_balance_tree)
 add_subdirectory(./app/07_find_common_ancestor)
 add_subdirectory(./app/08_find_successor_node)
 add_subdirectory(./app/09_tree_serialize)
+add_subdirectory(./app/10_tree_construct)
 
  
 
